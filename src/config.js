@@ -9,7 +9,7 @@ export const openRouterConfig = {
   baseUrl: "https://openrouter.ai/api/v1/chat/completions",
 
   // Keep the app on free models only.
-  defaultModel: "z-ai/glm-4.5-air:free",
+  defaultModel: "openai/gpt-oss-120b:free",
 
   models: [
     { id: "z-ai/glm-4.5-air:free", label: "Kunsi Lite" },
